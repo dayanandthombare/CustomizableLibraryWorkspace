@@ -1,0 +1,4 @@
+<div @fadeIn [ngStyle]="{ 'background-color': backgroundColor, 'color': textColor, 'padding': padding, 'border-radius': borderRadius }"
+[ngClass]="appliedClass" (click)="onClick()">
+  <ng-content></ng-content>
+</div>
